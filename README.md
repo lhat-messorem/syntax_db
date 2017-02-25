@@ -16,7 +16,7 @@ import syntaxdb
 
 ##Authentication
 
-Authentication is not required for the usage of the API
+Authentication is not required for the usage of the API.
 
 ##Queries
 
@@ -34,13 +34,13 @@ db.parameters['language_permalink'] = 'python'
 db.concept()
 ```
 
-Before executing some queries, we just need to add the parameters.
+Before executing some queries, we need to add the parameters (if neccessary).
 
 ```Python
 db.parameters['parameter_name'] = value
 ```
 
-Then call `concept()`, `language()`, `category()` to get what we want. (In the example we get all concepts corresponding to Python)
+Then call `concept()`, `language()`, `category()` to get what we want (in the example we get all concepts corresponding to Python).
 
 After finishing query, we can change parameters to make another query.
 
