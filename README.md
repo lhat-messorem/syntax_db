@@ -4,7 +4,7 @@ This is a small Python library for accessing the [SyntaxDB](https://syntaxdb.com
 
 [SyntaxDB](https://syntaxdb.com/) is a programing language syntax database. See https://syntaxdb.com/about for more infomation.
 
-Official documentation of the API can be found at https://syntaxdb.com/api/v1
+Official documentation of the API can be found at https://syntaxdb.com/api/v1.
 
 ## Installation
 
