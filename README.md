@@ -8,6 +8,10 @@ Official documentation of the API can be found at https://syntaxdb.com/api/v1.
 
 ## Installation
 
+```
+pip install syntaxdb
+```
+
 ## Usage
 
 ```Python
