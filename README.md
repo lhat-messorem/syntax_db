@@ -48,7 +48,7 @@ See parameters list in API's document: https://syntaxdb.com/api/v1.
 
 More detail about operations, parameter's type, required parameters, response content type ... can be found at the API documentation too.
 
-To query an operation(listed in the API doc), we just simple add exactly parameters mentioned in the doc (pay attention to requied parameters),
+To query an operation(listed in the API doc), we just simple add exactly parameters mentioned in the doc (pay attention to required parameters),
 then call `concept()`, `language()` or `category()`.
 
 ## Contributing
