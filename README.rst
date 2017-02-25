@@ -13,7 +13,8 @@ https://syntaxdb.com/api/v1.
 Installation
 ------------
 
-..code::
+::
+
     pip install syntaxdb
 
 Usage
