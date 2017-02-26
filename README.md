@@ -1,5 +1,7 @@
 #SyntaxDB
 
+[![Build Status](https://travis-ci.org/lhat-messorem/syntax_db.svg?branch=master)](https://travis-ci.org/lhat-messorem/syntax_db)
+
 This is a small Python library for accessing the [SyntaxDB](https://syntaxdb.com/) API.
 
 [SyntaxDB](https://syntaxdb.com/) is a programing language syntax database. See https://syntaxdb.com/about for more infomation.
