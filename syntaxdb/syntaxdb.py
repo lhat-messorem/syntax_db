@@ -35,7 +35,7 @@ class syntaxdb():
         if 'q' in self.parameters:
             self.api_request.addPath('search')
         if self.parameters:
-            self.api_request.addparameters(self.parameters)
+            self.api_request.addOptions(self.parameters)
         return self.api_request.send_request()
         
     def concept(self):
@@ -45,7 +45,7 @@ class syntaxdb():
         if 'q' in self.parameters:
             self.api_request.addPath('search')
         if self.parameters:
-            self.api_request.addparameters(self.parameters)
+            self.api_request.addOptions(self.parameters)
         return self.api_request.send_request()
 
     def language(self):
@@ -55,5 +55,5 @@ class syntaxdb():
         if 'q' in self.parameters:
             self.api_request.addPath('search')
         if self.parameters:
-            self.api_request.addparameters(self.parameters)
+            self.api_request.addOptions(self.parameters)
         return self.api_request.send_request()
