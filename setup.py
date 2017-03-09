@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name = "syntaxdb",
-    version = "0.0.5",
+    version = "0.0.6",
     author = "lhat-messorem",
     author_email = "lhat.messorem@gmail.com",
     description = ("A small Python library for accessing the SyntaxDB API"),
@@ -25,6 +25,9 @@ setup(
         "Intended Audience :: Developers",
         "Programming Language :: Python",
         "Topic :: Utilities",
+    ],
+    install_requires=[
+        "requests",
     ],
     package_data={
         "": ["README.md", "LICENSE.md"]
