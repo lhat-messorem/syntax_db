@@ -6,7 +6,7 @@ This is a small Python library for accessing the [SyntaxDB](https://syntaxdb.com
 
 [SyntaxDB](https://syntaxdb.com/) is a programing language syntax database. See https://syntaxdb.com/about for more infomation.
 
-Official documentation of the API can be found at https://syntaxdb.com/api/v1.
+Official document of the API can be found at https://syntaxdb.com/api/v1.
 
 ## Installation
 
@@ -22,11 +22,11 @@ import syntaxdb
 
 ##Authentication
 
-Authentication is not required for the usage of the API.
+The usage of the API doesn't require any authentication.
 
 ##Queries
 
-First is an example:
+First, there is an example:
 
 ```Python
 import syntaxdb
@@ -40,7 +40,7 @@ db.parameters['language_permalink'] = 'python'
 db.concept()
 ```
 
-Before executing some queries, we need to add the parameters (if neccessary).
+Before executing some queries, we need to add the parameters (if necessary).
 
 ```Python
 db.parameters['parameter_name'] = value
@@ -54,11 +54,11 @@ See parameters list in API's document: https://syntaxdb.com/api/v1.
 
 More detail about operations, parameter's type, required parameters, response content type ... can be found at the API documentation too.
 
-To query an operation (listed in the API doc), we just simple add exactly parameters mentioned in the doc (pay attention to required parameters),
+To query an operation (listed in the API doc), we just simply add parameters mentioned in the doc (pay attention to required parameters),
 then call `concept()`, `language()` or `category()`.
 
 ## Contributing
-Bug reports and pull requests are welcome at https://github.com/lhat-messorem/syntax_db.
+Bug reports and pull requests are welcomed at https://github.com/lhat-messorem/syntax_db.
 
 ## License
 This library is a open source software licensed under the [MIT License](http://opensource.org/licenses/MIT).
