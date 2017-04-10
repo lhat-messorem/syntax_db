@@ -1,4 +1,4 @@
-#SyntaxDB
+# SyntaxDB
 
 [![Build Status](https://travis-ci.org/lhat-messorem/syntax_db.svg?branch=master)](https://travis-ci.org/lhat-messorem/syntax_db)
 
@@ -20,11 +20,11 @@ pip install syntaxdb
 import syntaxdb
 ```
 
-##Authentication
+## Authentication
 
 The usage of the API doesn't require any authentication.
 
-##Queries
+## Queries
 
 First, there is an example:
 
