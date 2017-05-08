@@ -1,9 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import apiRequest
+from __future__ import absolute_import
+from builtins import str
+from builtins import object
+from . import apiRequest
 
-class syntaxdb():
+class syntaxdb(object):
     def __init__(self):
         self.api_request = apiRequest.Request()
         self.parameters = {}

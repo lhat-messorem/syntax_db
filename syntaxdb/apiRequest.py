@@ -1,12 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
+from builtins import object
 import requests
 import re
 import sys
 
 #Request class to send and get response from SyntaxDB API url.
-class Request():
+class Request(object):
     def __init__(self):
         self.request_url = "https://syntaxdb.com/api/v1"
 
@@ -27,8 +29,8 @@ class Request():
         try:
             return requests.get(self.request_url).json()
         except:
-            print "[!]Unexpected error:", sys.exc_info()[0]
-            print "[!]The URL maybe wrong! Please check options and try again!"
+            print("[!]Unexpected error:", sys.exc_info()[0])
+            print("[!]The URL maybe wrong! Please check options and try again!")
 
     def reset_url(self):
         self.request_url = "https://syntaxdb.com/api/v1"
