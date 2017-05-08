@@ -60,3 +60,7 @@ class syntaxdb(object):
         if self.parameters:
             self.api_request.addOptions(self.parameters)
         return self.api_request.send_request()
+
+
+def test_answer():
+    pass
