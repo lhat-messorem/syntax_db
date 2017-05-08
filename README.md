@@ -59,12 +59,19 @@ then call `concept()`, `language()` or `category()`.
 
 ## Changelog:
 - 26/2/2017: 0.0.1
+
 			 Inital release.
+
 			 Success build with Travis.
+
 			 Pip support.
+
 - 9/3/2017:  0.0.6
+
 			 Fix bug: function name "addparameters".
+
 - 8/5/2017:  0.1.2
+
 			 Add Python3 support.
 
 ## Contributing
