@@ -58,7 +58,7 @@ To query an operation (listed in the API doc), we just simply add parameters men
 then call `concept()`, `language()` or `category()`.
 
 ## Changelog:
-- 26/2/2017: 0.0.1
+- 26/2/2017: **0.0.1**
 
 			 Inital release.
 
@@ -66,11 +66,11 @@ then call `concept()`, `language()` or `category()`.
 
 			 Pip support.
 
-- 9/3/2017:  0.0.6
+- 9/3/2017:  **0.0.6**
 
 			 Fix bug: function name "addparameters".
 
-- 8/5/2017:  0.1.2
+- 8/5/2017:  **0.1.2**
 
 			 Add Python3 support.
 
