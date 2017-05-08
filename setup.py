@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name = "syntaxdb",
-    version = "0.1.0",
+    version = "0.1.1",
     author = "lhat-messorem",
     author_email = "lhat.messorem@gmail.com",
     description = ("A small Python library for accessing the SyntaxDB API"),
