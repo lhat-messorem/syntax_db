@@ -57,6 +57,16 @@ More detail about operations, parameter's type, required parameters, response co
 To query an operation (listed in the API doc), we just simply add parameters mentioned in the doc (pay attention to required parameters),
 then call `concept()`, `language()` or `category()`.
 
+## Changelog:
+- 26/2/2017: 0.0.1
+			 Inital release.
+			 Success build with Travis.
+			 Pip support.
+- 9/3/2017:  0.0.6
+			 Fix bug: function name "addparameters".
+- 8/5/2017:  0.1.2
+			 Add Python3 support.
+
 ## Contributing
 Bug reports and pull requests are welcomed at https://github.com/lhat-messorem/syntax_db.
 
